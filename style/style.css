@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+#logo img{
+    position: absolute;
+    top: 52.2%;
+    left: 37.6%;
+    height: 298px;
+    width: 622px;
+    transform: translate(-50%, -50%);
+}
+#menuSection ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 44.75%;
+    left: 53.1%
+}
+#menuSection ul li{
+    font-family: Helvetica;
+    font-size: 35px;
+    height: 76px;
+    cursor: pointer;
+}
+
